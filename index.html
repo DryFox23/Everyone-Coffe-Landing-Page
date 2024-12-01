@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Everyone Coffe</title>
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+
+  <!-- Font Links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+</head>
+
+<body>
+<div class="all-content">
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./images/evv.png" alt="Logo" width="80" class="rounded-3">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home-section">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-section">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu-section">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery-section">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog-section">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq-section">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-section">Contact</a>
+          </li>
+        </ul>
+
+        <form class="d-flex ms-auto">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-Dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+  <!-- home section -->
+  <section id="home-section">
+    <div id="home-hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+      <!-- Particles Background -->
+      <div id="particles-js"></div>
+
+      <!-- Carousel Indicators -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#home-hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#home-hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#home-hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <!-- Carousel Items -->
+      <div class="carousel-inner">
+        <!-- First Slide -->
+        <div class="carousel-item active">
+          <img src="/images/bc1.jpg" class="home-carousel-img" alt="Fresh Coffee">
+          <div class="home-carousel-overlay"></div>
+          <div class="home-carousel-content">
+            <div class="content-wrapper">
+              <h3 class="home-carousel-title">Everyone Coffee</h3>
+              <p class="home-carousel-text">Fresh Coffee For Yours</p>
+              <div class="home-carousel-buttons">
+                <button class="home-carousel-btn" id="home-order-btn-1">
+                  <span>Order Now</span>
+                  <i class="fas fa-coffee"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Slide -->
+        <div class="carousel-item">
+          <img src="/images/bc2.jpg" class="home-carousel-img" alt="Cozy Coffee Place">
+          <div class="home-carousel-overlay"></div>
+          <div class="home-carousel-content">
+            <div class="content-wrapper">
+              <h3 class="home-carousel-title">Cozy Place</h3>
+              <p class="home-carousel-text">Enjoy quality coffee in a cozy, modern atmosphere.</p>
+              <div class="home-carousel-buttons">
+                <button class="home-carousel-btn" id="home-order-btn-2">
+                  <span>Explore Now</span>
+                  <i class="fas fa-coffee"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third Slide -->
+        <div class="carousel-item">
+          <img src="/images/bc3.jpg" class="home-carousel-img" alt="Special Coffee Offer">
+          <div class="home-carousel-overlay"></div>
+          <div class="home-carousel-content">
+            <div class="content-wrapper">
+              <h3 class="home-carousel-title">Special Offer</h3>
+              <p class="home-carousel-text">Morning Coffee 15k Only</p>
+              <div class="home-carousel-buttons">
+                <button class="home-carousel-btn" id="home-order-btn-3">
+                  <span>Check This Event</span>
+                  <i class="fas fa-coffee"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Custom Navigation -->
+      <div class="carousel-nav">
+        <button class="nav-btn prev" data-bs-target="#home-hero-carousel" data-bs-slide="prev">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="nav-btn next" data-bs-target="#home-hero-carousel" data-bs-slide="next">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- home section -->
+
+  <!-- about section -->
+  <section id="about-section">
+    <div class="about-container">
+      <h2 class="about-section-title" data-aos="fade-down" data-aos-duration="1000">
+        About <span class="about-title-highlight">Us</span>
+      </h2>
+      <p class="about-section-subtitle" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        Crafting exceptional coffee experiences since 2021. We bring passion, expertise, and community values to every cup we serve.
+      </p>
+
+      <div class="about-grid">
+        <!-- Left Grid - Image Carousel -->
+        <div class="about-grid-left" data-aos="fade-right" data-aos-duration="1200">
+          <div id="about-image-carousel" class="about-carousel carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/images/about-1.png" class="about-carousel-img" alt="Coffee Shop Interior" loading="lazy">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/about-2.png" class="about-carousel-img" alt="Coffee Shop Atmosphere" loading="lazy">
+              </div>
+              <div class="carousel-item">
+                <img src="/images/about-3.png" class="about-carousel-img" alt="Coffee Shop Experience" loading="lazy">
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#about-image-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#about-image-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#about-image-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Grid - Content -->
+        <div class="about-grid-right" data-aos="fade-left" data-aos-duration="1200">
+          <div class="about-content-wrapper">
+            <div class="about-content">
+              <h3 class="about-content-title" data-aos="fade-up" data-aos-duration="800">Our Story</h3>
+              <p class="about-content-text" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                Welcome to Everyone Coffee! Located in Cilandak, Jakarta, Everyone Coffee is a place where coffee lovers can find a warm and cozy cup of coffee. We believe that every cup of coffee has a story, and we want to share that story with you.
+              </p>
+
+              <div class="about-features">
+                <div class="feature-item" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
+                  <i class="feature-icon bi bi-cup-hot"></i>
+                  <h4>Cozy Place</h4>
+                  <p>A cozy place with a calm atmosphere</p>
+                </div>
+                <div class="feature-item" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="600">
+                  <i class="feature-icon bi bi-people"></i>
+                  <h4>Expert Team</h4>
+                  <p>Certified baristas passionate about coffee</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-stats">
+              <div class="stats-item" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="800">
+                <div class="stats-value">500+</div>
+                <div class="stats-label">Cups Sold</div>
+              </div>
+              <div class="stats-item" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="1000">
+                <div class="stats-value">500+</div>
+                <div class="stats-label">Happy Customers</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about section -->
+
+  <!-- menu section -->
+  <section class="menu" id="menu-section">
+    <div class="container">
+      <!-- Menu Heading -->
+      <div class="menu-heading-wrapper" data-aos="fade-down" data-aos-duration="1000">
+        <h2 class="menu-section-heading">Our <span>Popular</span> Menu</h2>
+        <h4 class="menu-subheading">Various types of food and drinks that you can get</h4>
+      </div>
+
+      <!-- Tab Navigation -->
+      <ul class="nav nav-tabs menu-tabs" id="menuTabs" role="tablist" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="drinks-tab" data-bs-toggle="tab" data-bs-target="#drinks" type="button" role="tab" aria-controls="drinks" aria-selected="true">
+            <i class="fas fa-coffee"></i><span>Drinks</span>
+            <div class="tab-indicator"></div>
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="snacks-tab" data-bs-toggle="tab" data-bs-target="#snacks" type="button" role="tab" aria-controls="snacks" aria-selected="false">
+            <i class="fas fa-cookie-bite"></i><span>Snacks</span>
+            <div class="tab-indicator"></div>
+          </button>
+        </li>
+      </ul>
+
+      <!-- Tab Content -->
+      <div class="tab-content" id="menuTabsContent">
+        <!-- Drinks Tab Content -->
+        <div class="tab-pane fade show active" id="drinks" role="tabpanel" aria-labelledby="drinks-tab">
+          <swiper-container class="menu-swiper" space-between="30" pagination="true" pagination-clickable="true"
+                            breakpoints='{
+                        "0": {"slidesPerView": 1, "spaceBetween": 20, "enabled": true},
+                        "768": {"slidesPerView": 2, "spaceBetween": 30, "enabled": true},
+                        "1024": {"slidesPerView": 4, "spaceBetween": 30, "enabled": false}
+                    }'>
+            <!-- Drink Item -->
+            <swiper-slide data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+              <article class="menu-card">
+                <div class="card__info-hover">
+                  <div class="card__clock-info"><span class="card__time">Popular Choice</span></div>
+                </div>
+                <div class="card__img">
+                  <img src="./images/kopi1.png" alt="Coffee Latte">
+                </div>
+                <a href="#" class="card_link">
+                  <div class="card__img--hover">
+                    <img src="./images/kopi1.png" alt="Coffee Latte">
+                  </div>
+                </a>
+                <div class="card__info">
+                  <span class="card__category">Coffee</span>
+                  <h3 class="card__title">Coffee Latte</h3>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <span class="card__by">Rp32.000
+                                    <a href="#" class="card__cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </span>
+                </div>
+              </article>
+            </swiper-slide>
+            <swiper-slide data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+              <article class="menu-card">
+                <div class="card__info-hover">
+                  <div class="card__clock-info"><span class="card__time">Popular Choice</span></div>
+                </div>
+                <div class="card__img">
+                  <img src="./images/kopi1.png" alt="Coffee Latte">
+                </div>
+                <a href="#" class="card_link">
+                  <div class="card__img--hover">
+                    <img src="./images/kopi1.png" alt="Coffee Latte">
+                  </div>
+                </a>
+                <div class="card__info">
+                  <span class="card__category">Coffee</span>
+                  <h3 class="card__title">Coffee Latte</h3>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <span class="card__by">Rp32.000
+                                    <a href="#" class="card__cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </span>
+                </div>
+              </article>
+            </swiper-slide>
+            <swiper-slide data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+              <article class="menu-card">
+                <div class="card__info-hover">
+                  <div class="card__clock-info"><span class="card__time">Popular Choice</span></div>
+                </div>
+                <div class="card__img">
+                  <img src="./images/kopi1.png" alt="Coffee Latte">
+                </div>
+                <a href="#" class="card_link">
+                  <div class="card__img--hover">
+                    <img src="./images/kopi1.png" alt="Coffee Latte">
+                  </div>
+                </a>
+                <div class="card__info">
+                  <span class="card__category">Coffee</span>
+                  <h3 class="card__title">Coffee Latte</h3>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <span class="card__by">Rp32.000
+                                    <a href="#" class="card__cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </span>
+                </div>
+              </article>
+            </swiper-slide>
+            <swiper-slide data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+              <article class="menu-card">
+                <div class="card__info-hover">
+                  <div class="card__clock-info"><span class="card__time">Popular Choice</span></div>
+                </div>
+                <div class="card__img">
+                  <img src="./images/kopi1.png" alt="Coffee Latte">
+                </div>
+                <a href="#" class="card_link">
+                  <div class="card__img--hover">
+                    <img src="./images/kopi1.png" alt="Coffee Latte">
+                  </div>
+                </a>
+                <div class="card__info">
+                  <span class="card__category">Coffee</span>
+                  <h3 class="card__title">Coffee Latte</h3>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <span class="card__by">Rp32.000
+                                    <a href="#" class="card__cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </span>
+                </div>
+              </article>
+            </swiper-slide>
+            <!-- More Swiper Slides for Drinks (Repeat similar structure as above for each item) -->
+          </swiper-container>
+        </div>
+
+        <!-- Snacks Tab Content -->
+        <div class="tab-pane fade" id="snacks" role="tabpanel" aria-labelledby="snacks-tab">
+          <swiper-container class="menu-swiper" space-between="30" pagination="true" pagination-clickable="true"
+                            breakpoints='{
+                        "0": {"slidesPerView": 1, "spaceBetween": 20, "enabled": true},
+                        "768": {"slidesPerView": 2, "spaceBetween": 30, "enabled": true},
+                        "1024": {"slidesPerView": 4, "spaceBetween": 30, "enabled": false}
+                    }'>
+            <!-- Snack Item -->
+            <swiper-slide data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+              <article class="menu-card">
+                <div class="card__info-hover">
+                  <div class="card__clock-info"><span class="card__time">Best Seller</span></div>
+                </div>
+                <div class="card__img">
+                  <img src="./images/cireng.png" alt="Rujak Cireng">
+                </div>
+                <a href="#" class="card_link">
+                  <div class="card__img--hover">
+                    <img src="./images/cireng.png" alt="Rujak Cireng">
+                  </div>
+                </a>
+                <div class="card__info">
+                  <span class="card__category">Snack</span>
+                  <h3 class="card__title">Rujak Cireng</h3>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <span class="card__by">Rp18.000
+                                    <a href="#" class="card__cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </span>
+                </div>
+              </article>
+            </swiper-slide>
+            <!-- Snakc 2 -->
+            <swiper-slide data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+              <article class="menu-card">
+                <div class="card__info-hover">
+                  <div class="card__clock-info"><span class="card__time">Best Seller</span></div>
+                </div>
+                <div class="card__img">
+                  <img src="./images/cireng.png" alt="Rujak Cireng">
+                </div>
+                <a href="#" class="card_link">
+                  <div class="card__img--hover">
+                    <img src="./images/cireng.png" alt="Rujak Cireng">
+                  </div>
+                </a>
+                <div class="card__info">
+                  <span class="card__category">Snack</span>
+                  <h3 class="card__title">Rujak Cireng</h3>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <span class="card__by">Rp18.000
+                                    <a href="#" class="card__cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </span>
+                </div>
+              </article>
+            </swiper-slide>
+            <swiper-slide data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+              <article class="menu-card">
+                <div class="card__info-hover">
+                  <div class="card__clock-info"><span class="card__time">Best Seller</span></div>
+                </div>
+                <div class="card__img">
+                  <img src="./images/cireng.png" alt="Rujak Cireng">
+                </div>
+                <a href="#" class="card_link">
+                  <div class="card__img--hover">
+                    <img src="./images/cireng.png" alt="Rujak Cireng">
+                  </div>
+                </a>
+                <div class="card__info">
+                  <span class="card__category">Snack</span>
+                  <h3 class="card__title">Rujak Cireng</h3>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <span class="card__by">Rp18.000
+                                    <a href="#" class="card__cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </span>
+                </div>
+              </article>
+            </swiper-slide>
+            <swiper-slide data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+              <article class="menu-card">
+                <div class="card__info-hover">
+                  <div class="card__clock-info"><span class="card__time">Best Seller</span></div>
+                </div>
+                <div class="card__img">
+                  <img src="./images/cireng.png" alt="Rujak Cireng">
+                </div>
+                <a href="#" class="card_link">
+                  <div class="card__img--hover">
+                    <img src="./images/cireng.png" alt="Rujak Cireng">
+                  </div>
+                </a>
+                <div class="card__info">
+                  <span class="card__category">Snack</span>
+                  <h3 class="card__title">Rujak Cireng</h3>
+                  <div class="star text-center">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                  <span class="card__by">Rp18.000
+                                    <a href="#" class="card__cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </span>
+                </div>
+              </article>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- menu section -->
+
+  <!-- our gallery -->
+  <section class="gallery-section" id="gallery-section" data-aos="fade-up" data-aos-duration="1000">
+    <div class="container">
+      <h2 class="gallery-title" data-aos="fade-down" data-aos-duration="800">Our <span>Gallery</span></h2>
+
+      <!-- Desktop View -->
+      <div class="row d-none d-lg-flex g-4">
+        <!-- Gallery Item Template (repeat for each item) -->
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
+          <div class="gallery-item">
+            <img src="/images/newgal1.png" alt="Gallery Image 1">
+            <div class="gallery-overlay">
+              <h4>Gallery Image 1</h4>
+              <i class="fas fa-search-plus zoom-icon"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
+          <div class="gallery-item">
+            <img src="/images/newgal2.png" alt="Gallery Image 2">
+            <div class="gallery-overlay">
+              <h4>Gallery Image 2</h4>
+              <i class="fas fa-search-plus zoom-icon"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300">
+          <div class="gallery-item">
+            <img src="/images/newgal3.png" alt="Gallery Image 3">
+            <div class="gallery-overlay">
+              <h4>Gallery Image 3</h4>
+              <i class="fas fa-search-plus zoom-icon"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
+          <div class="gallery-item">
+            <img src="/images/newgal4.png" alt="Gallery Image 4">
+            <div class="gallery-overlay">
+              <h4>Gallery Image 4</h4>
+              <i class="fas fa-search-plus zoom-icon"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="500">
+          <div class="gallery-item">
+            <img src="/images/newgal5.png" alt="Gallery Image 5">
+            <div class="gallery-overlay">
+              <h4>Gallery Image 5</h4>
+              <i class="fas fa-search-plus zoom-icon"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="600">
+          <div class="gallery-item">
+            <img src="/images/newgal6.png" alt="Gallery Image 6">
+            <div class="gallery-overlay">
+              <h4>Gallery Image 6</h4>
+              <i class="fas fa-search-plus zoom-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile/Tablet View (Swiper) -->
+      <swiper-container class="d-lg-none mySwiper" data-aos="fade-up" data-aos-duration="1000"
+                        space-between="20" pagination="true" pagination-clickable="true"
+                        breakpoints='{
+                            "0": {"slidesPerView": 1, "spaceBetween": 10},
+                            "576": {"slidesPerView": 2, "spaceBetween": 20},
+                            "768": {"slidesPerView": 2, "spaceBetween": 20},
+                            "992": {"slidesPerView": 3, "spaceBetween": 20}
+                          }'>
+        <!-- Swiper Slide Template (repeat for each item) -->
+        <swiper-slide data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
+          <div class="gallery-item">
+            <img src="/images/newgal1.png" alt="Gallery Image 1">
+            <div class="gallery-overlay">
+              <h4>Gallery Image 1</h4>
+              <i class="fas fa-search-plus zoom-icon"></i>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
+          <div class="gallery-item">
+            <img src="/images/newgal2.png" alt="Gallery Image 2">
+            <div class="gallery-overlay">
+              <h4>Gallery Image 2</h4>
+              <i class="fas fa-search-plus zoom-icon"></i>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">
+          <div class="gallery-item">
+            <img src="/images/newgal3.png" alt="Gallery Image 3">
+            <div class="gallery-overlay">
+              <h4>Gallery Image 3</h4>
+              <i class="fas fa-search-plus zoom-icon"></i>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
+          <div class="gallery-item">
+            <img src="/images/newgal4.png" alt="Gallery Image 4">
+            <div class="gallery-overlay">
+              <h4>Gallery Image 4</h4>
+              <i class="fas fa-search-plus zoom-icon"></i>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide data-aos="fade-right" data-aos-duration="800" data-aos-delay="500">
+          <div class="gallery-item">
+            <img src="/images/newgal5.png" alt="Gallery Image 5">
+            <div class="gallery-overlay">
+              <h4>Gallery Image 5</h4>
+              <i class="fas fa-search-plus zoom-icon"></i>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide data-aos="fade-right" data-aos-duration="800" data-aos-delay="600">
+          <div class="gallery-item">
+            <img src="/images/newgal6.png" alt="Gallery Image 6">
+            <div class="gallery-overlay">
+              <h4>Gallery Image 6</h4>
+              <i class="fas fa-search-plus zoom-icon"></i>
+            </div>
+          </div>
+        </swiper-slide>
+      </swiper-container>
+    </div>
+  </section>
+  <!-- our gallary -->
+
+  <!-- testimonial section -->
+  <section class="testimonial-section" data-aos="fade-up">
+    <div class="container">
+      <h2 class="testimonial-section-title" data-aos="fade-down" data-aos-duration="1000">
+        What Our <span>Customers</span> Say
+      </h2>
+
+      <!-- Swiper Container for Testimonials -->
+      <swiper-container class="mySwiper" space-between="30" pagination="true" pagination-clickable="true" breakpoints='{
+            "0": { "slidesPerView": 1, "spaceBetween": 20 },
+            "768": { "slidesPerView": 2, "spaceBetween": 30 },
+            "1024": { "slidesPerView": 3, "spaceBetween": 30 }
+            }'>
+        <!-- Testimonial Card 1 -->
+        <swiper-slide>
+          <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+            <div class="testimonial-header">
+              <img src="/images/testi1.jpg" alt="Testimonial Image" class="testimonial-image" data-aos="fade-right" data-aos-delay="200">
+              <div class="testimonial-info" data-aos="fade-left" data-aos-delay="300">
+                <h5 class="testimonial-name">Dzaky Faisa</h5>
+                <p class="testimonial-author">Regular Customer</p>
+                <div class="star-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p class="testimonial-text" data-aos="fade-up" data-aos-delay="400">
+              "A post-industrial style cafe, just 150m from Fatmawati MRT in South Jakarta's Cilandak District. Set in a large house's backyard, it offers a cozy indoor space and an outdoor area ideal for gatherings. The well-brewed coffee and attentive owner add to the experience."
+            </p>
+          </div>
+        </swiper-slide>
+
+        <!-- Testimonial Card 2 -->
+        <swiper-slide>
+          <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
+            <div class="testimonial-header">
+              <img src="/images/testi2.jpg" alt="Testimonial Image" class="testimonial-image" data-aos="fade-right" data-aos-delay="300">
+              <div class="testimonial-info" data-aos="fade-left" data-aos-delay="400">
+                <h5 class="testimonial-name">Krishna Astu</h5>
+                <p class="testimonial-author">Regular Customer</p>
+                <div class="star-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p class="testimonial-text" data-aos="fade-up" data-aos-delay="500">
+              "The ample parking initially drew me here, as few Jakarta cafes offer such space. The building resembles an old house, so I got a bit lost, but was delighted to find a cool garden for enjoying afternoon coffee. The coffee, around 30k, tasted nice, and the french fries snack was satisfying."
+            </p>
+          </div>
+        </swiper-slide>
+
+        <!-- Testimonial Card 3 -->
+        <swiper-slide>
+          <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+            <div class="testimonial-header">
+              <img src="/images/testi3.jpg" alt="Testimonial Image" class="testimonial-image" data-aos="fade-right" data-aos-delay="400">
+              <div class="testimonial-info" data-aos="fade-left" data-aos-delay="500">
+                <h5 class="testimonial-name">Nabilah Rahmagitha</h5>
+                <p class="testimonial-author">New Customer</p>
+                <div class="star-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+            <p class="testimonial-text" data-aos="fade-up" data-aos-delay="600">
+              "Just a 4-minute walk from Fatmawati MRT, I visited early in the morning when it was still quiet. The cafe offers a cozy indoor area and a spacious outdoor space. I tried the Berrycious drink, which was refreshingly sweet and perfect to start the day."
+            </p>
+          </div>
+        </swiper-slide>
+      </swiper-container>
+
+      <!-- Reviews Button -->
+      <div class="reviews-button-container" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+        <a href="https://www.google.com/search?q=everyone+coffe" target="_blank" class="google-reviews-button">
+          <i class="fab fa-google me-2"></i>
+          See More Reviews on Google
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- testimonial section -->
+
+  <!-- blogs -->
+  <section class="section gray-bg" id="blog-section" data-aos="fade-up" data-aos-duration="1000">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7 text-center">
+          <h2 class="blog-section-title" data-aos="fade-down" data-aos-duration="800">
+            Latest <span>Blogs</span>
+          </h2>
+        </div>
+      </div>
+
+      <!-- Swiper for Mobile and Tablet -->
+      <swiper-container class="mySwiper-blog" space-between="30" pagination="true" pagination-clickable="true"
+                        breakpoints='{
+                "0": { "slidesPerView": 1, "spaceBetween": 20 },
+                "768": { "slidesPerView": 2, "spaceBetween": 30 },
+                "1024": { "slidesPerView": 3, "spaceBetween": 30 }
+            }'>
+
+        <!-- Blog Slide 1 -->
+        <swiper-slide data-aos="fade-left" data-aos-duration="800" data-aos-delay="100">
+          <div class="col-lg-4">
+            <div class="blog-grid">
+              <div class="blog-img">
+                <div class="date" data-aos="fade-left" data-aos-duration="600" data-aos-delay="300">5 January 2024</div>
+                <a href="#">
+                  <img src="/images/newBlog-1.png" alt="Blog Image">
+                </a>
+              </div>
+              <div class="blog-info">
+                <h5><a href="#">Kopi Pagi Jakarta</a></h5>
+                <p>kopi pagi jakarta — kopi promo seharga 15 ribuan yang bisa dinikmati sahabat #everyone dari jam 7.30 sampai 10 pagi — tanpa minimum pembelian, dengan syarat harus melakukan pemesanan di tempat alias mesti datang ke Everyone Coffee langsung.</p>
+                <div class="btn-bar" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+                  <a href="#" class="px-btn-arrow">
+                    <span>Read More</span>
+                    <i class="arrow"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <!-- Blog Slide 2 -->
+        <swiper-slide data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+          <div class="col-lg-4">
+            <div class="blog-grid">
+              <div class="blog-img">
+                <div class="date" data-aos="fade-left" data-aos-duration="600" data-aos-delay="300">25 January 2024</div>
+                <a href="#">
+                  <img src="/images/newBlog-2.png" alt="Blog Image">
+                </a>
+              </div>
+              <div class="blog-info">
+                <h5><a href="#">Work From Caffe</a></h5>
+                <p>Work from caffe atau study from caffe adalah kegiatan bekerja atau belajar dari kafe, yang makin saling dilaksanakan setelah terjadinya pandemi covid-19 lalu, dengan syarat kafe tersebut memiliki kualitas internet yang bagus.</p>
+                <div class="btn-bar" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+                  <a href="#" class="px-btn-arrow">
+                    <span>Read More</span>
+                    <i class="arrow"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+
+        <!-- Blog Slide 3 -->
+        <swiper-slide data-aos="fade-left" data-aos-duration="800" data-aos-delay="300">
+          <div class="col-lg-4">
+            <div class="blog-grid">
+              <div class="blog-img">
+                <div class="date" data-aos="fade-left" data-aos-duration="600" data-aos-delay="300">15 October 2022</div>
+                <a href="#">
+                  <img src="/images/newBlog-3.png" alt="Blog Image">
+                </a>
+              </div>
+              <div class="blog-info">
+                <h5><a href="#">Melukis di Everyone Coffe</a></h5>
+                <p>Masih bisa ngelukis gak, kak?" BISA YES! Langsung tanya ke barista kami aja yaaa! Selama #kanvas dan #cat-nya tersedia, kamu bisa ngelukis FREE untuk bantu menghias dinding #everyonecoffee biar penuh dengan kreativitas.</p>
+                <div class="btn-bar" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+                  <a href="#" class="px-btn-arrow">
+                    <span>Read More</span>
+                    <i class="arrow"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+      </swiper-container>
+
+      <!-- Grid for Desktop -->
+      <div class="desktop-container">
+        <!-- Blog Grid Item 1 -->
+        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+          <div class="blog-grid">
+            <div class="blog-img">
+              <div class="date" data-aos="fade-left" data-aos-duration="600" data-aos-delay="200">5 January 2024</div>
+              <a href="#">
+                <img src="/images/newBlog-1.png" alt="Blog Image">
+              </a>
+            </div>
+            <div class="blog-info">
+              <h5><a href="#">Kopi Pagi Jakarta</a></h5>
+              <p>kopi pagi jakarta — kopi promo seharga 15 ribuan yang bisa dinikmati sahabat #everyone dari jam 7.30 sampai 10 pagi — tanpa minimum pembelian, dengan syarat harus melakukan pemesanan di tempat alias mesti datang ke Everyone Coffee langsung.</p>
+              <div class="btn-bar" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+                <a href="#" class="px-btn-arrow">
+                  <span>Read More</span>
+                  <i class="arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Grid Item 2 -->
+        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+          <div class="blog-grid">
+            <div class="blog-img">
+              <div class="date" data-aos="fade-left" data-aos-duration="600" data-aos-delay="300">25 January 2024</div>
+              <a href="#">
+                <img src="/images/newBlog-2.png" alt="Blog Image">
+              </a>
+            </div>
+            <div class="blog-info">
+              <h5><a href="#">Work From Caffe</a></h5>
+              <p>Work from caffe atau study from caffe adalah kegiatan bekerja atau belajar dari kafe, yang makin saling dilaksanakan setelah terjadinya pandemi covid-19 lalu, dengan syarat kafe tersebut memiliki kualitas internet yang bagus.</p>
+              <div class="btn-bar" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+                <a href="#" class="px-btn-arrow">
+                  <span>Read More</span>
+                  <i class="arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Grid Item 3 -->
+        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+          <div class="blog-grid">
+            <div class="blog-img">
+              <div class="date" data-aos="fade-left" data-aos-duration="600" data-aos-delay="400">15 October 2022</div>
+              <a href="#">
+                <img src="/images/newBlog-3.png" alt="Blog Image">
+              </a>
+            </div>
+            <div class="blog-info">
+              <h5><a href="#">Melukis Di Everyone Coffe</a></h5>
+              <p>Masih bisa ngelukis gak, kak?" BISA YES! Langsung tanya ke barista kami aja yaaa! Selama #kanvas dan #cat-nya tersedia, kamu bisa ngelukis FREE untuk bantu menghias dinding #everyonecoffee biar penuh dengan kreativitas.</p>
+              <div class="btn-bar" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+                <a href="#" class="px-btn-arrow">
+                  <span>Read More</span>
+                  <i class="arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blogs -->
+
+
+  <!-- Faq start -->
+  <section class="faq-section" id="faq-section" data-aos="fade-up" data-aos-duration="1000">
+    <div class="container">
+      <h2 class="faq-title" data-aos="fade-down" data-aos-duration="800">
+        Frequently <span>Asked</span> Questions
+      </h2>
+
+      <!-- Search Box -->
+      <div class="faq-search" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+        <div class="search-box">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" class="search-input" placeholder="Search your questions...">
+        </div>
+      </div>
+
+      <!-- FAQ Accordion -->
+      <div class="accordion" id="faqAccordion">
+
+        <!-- Menu & Products FAQ -->
+        <div class="accordion-item" data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <span class="faq-tag" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">Menu</span>
+              <span class="faq-submenu">What types of coffee do you serve?</span>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              We serve a wide variety of coffee including espresso, cappuccino, latte, americano, and cold brew. All our coffee beans are ethically sourced and freshly roasted. We also offer seasonal specialties and signature drinks unique to our café.
+            </div>
+          </div>
+        </div>
+
+        <!-- Hours & Location FAQ -->
+        <div class="accordion-item" data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <span class="faq-tag" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="400">Hours</span>
+              What are your operating hours?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              We are open Monday through Friday from 7:30 AM to 11:00 PM, and weekends from 7:30 AM to 00:00 PM. During holidays, our hours may vary, so please check our social media for updates.
+            </div>
+          </div>
+        </div>
+
+        <!-- Rewards Program FAQ -->
+        <div class="accordion-item" data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <span class="faq-tag" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="500">Program</span>
+              How does your event program work?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Each of our programs and events has specific terms and conditions. We'll provide all the details on our Instagram for every event.
+            </div>
+          </div>
+        </div>
+
+        <!-- Dietary Options FAQ -->
+        <div class="accordion-item" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <span class="faq-tag" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="600">Food</span>
+              Do you offer food and drinks besides coffee?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Yes, we also serve a variety of other food and drinks, including tea, milk, and hearty meals.
+            </div>
+          </div>
+        </div>
+
+        <!-- Events & Catering FAQ -->
+        <div class="accordion-item" data-aos="fade-right" data-aos-duration="800" data-aos-delay="500">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              <span class="faq-tag" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="700">Events</span>
+              Do you offer catering or event space rental?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              Yes, our venue is available for rental. Please contact us for more details.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Faq end -->
+
+  <!-- contact -->
+  <section class="contact-section" id="contact-section">
+    <div class="container">
+      <!-- Section Title -->
+      <div class="section-header" data-aos="fade-down" data-aos-duration="1000">
+        <h2 class="contact-section-title">Contact <span>Us</span></h2>
+      </div>
+
+      <!-- Hero Contact Section -->
+      <div class="hero-contact" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-8 col-md-7">
+            <h1>Come Discuss With Us</h1>
+            <p>Got a question about our coffee, our space, or anything in between? Don't hesitate to get in touch!</p>
+          </div>
+          <div class="col-lg-4 col-md-5 text-md-end text-center">
+            <a href="#" class="contact-btn" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">CONTACT US MORE</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Location Section -->
+      <div class="row g-4">
+        <!-- Location Information -->
+        <div class="col-lg-5">
+          <div class="location-info" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+            <h3 class="location-title">Our Location</h3>
+
+            <!-- Location Details -->
+            <div class="location-details" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+              <h5>South Jakarta, Indonesia</h5>
+              <p>Jl. Taman Cilandak Raya No.1A, RT.1/RW.4, Cilandak Bar</p>
+              <p>Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430</p>
+            </div>
+
+            <!-- Operating Hours -->
+            <div class="operation-hours" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
+              <h6>Operating Hours:</h6>
+              <p>Open Daily: 8:30 AM – 11:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map Section -->
+        <div class="col-lg-7">
+          <div class="map-container" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63459.2689909946!2d106.71758826953126!3d-6.236779067225494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1c91b3608b5%3A0x558ccb1de1c08216!2sEveryone%20Coffee!5e0!3m2!1sen!2sid!4v1730877810912!5m2!1sen!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact -->
+
+  <!-- footer -->
+  <footer class="footer">
+    <!-- Decorative Coffee Beans -->
+    <i class="fas fa-coffee coffee-bean coffee-bean-1"></i>
+    <i class="fas fa-coffee coffee-bean coffee-bean-2"></i>
+
+    <div class="container">
+      <div class="row">
+        <!-- Company Info Section -->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <div class="footer-logo">
+            <img src="/images/evv.png" alt="Caffe Logo">
+          </div>
+          <p class="footer-description">
+            Experience the perfect blend of artisanal coffee and cozy ambiance at our café. Every cup tells a story of carefully selected beans and expert craftsmanship.
+          </p>
+          <div class="social-link">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <div class="footer-links">
+            <h5>Quick Links</h5>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Support Section -->
+        <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+          <div class="footer-links">
+            <h5>Support</h5>
+            <ul>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Career</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Newsletter Section -->
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-links">
+            <h5>Newsletter</h5>
+            <p class="footer-description">
+              Stay updated! Get the latest information on our social media or feel free to contact us.
+            </p>
+            <form class="newsletter-form">
+              <input type="email" class="newsletter-input" placeholder="Enter your email" required>
+              <button type="submit" class="newsletter-btn">
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <p>
+          © 2024 <a href="#">Everyone Coffee</a>. All rights reserved. Crafted with
+          <i class="fas fa-heart" style="color: #ff4d4d;"></i> by
+          <a href="#">Everyone Coffee</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+
+  <a href="#" class="arrow"><i><img src="./images/up-arrow.png" alt="" width="50px"></i></a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+
+</html>
